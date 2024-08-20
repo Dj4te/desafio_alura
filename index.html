@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de textos</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="assets/lock-closed-outline.svg" type="image/x-icon">
+</head>
+    <body>
+        <div class="logo">
+            <img src="assets/alura_logo.png" alt="Logo Alura" class="logoImg">
+            <div class="logo">
+                <h1 class="titulo">Decodificador 1.0</h1>
+            </div>
+        </div>
+        <div class="container-input">
+            <div class="input">
+               <textarea  id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+               <p>ATENÇÃO: Apenas letras maiusculas e sem acento!</p>
+           </div>
+   
+   
+            <div id="output">
+               <img src="assets/menino_lupa.svg" alt="menino lupa" height="330px" width="400px">
+               <h2>Sua mensagem aparecerá aqui!</h2>
+               <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+            </div>
+           </div>
+   
+           
+            <div class="buttons">
+                <div class="container-btn">
+                   <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                   <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+                </div>
+               
+            </div>
+        <footer class="rodape">
+            <h3>Desenvolvido por Guilherme Dias Campos</h3>
+            <div class="rodape__icons">
+                <a class="icons" href="https://www.instagram.com/dj4te/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a class="icons" href="https://github.com/Dj4te"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+        </footer>
+        
+        <script src="scripts/script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
